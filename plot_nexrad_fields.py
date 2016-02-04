@@ -8,7 +8,7 @@ nyquist = radar.instrument_parameters['nyquist_velocity']['data'][1]
 
 fields_to_plot = {
     'reflectivity': ('pyart_NWSRef', -30, 75),
-    'velocity': ('pyart_NWSVel', -nyquist, nyquist),
+    'velocity': ('pyart_BuDRd18', -nyquist, nyquist),
     'spectrum_width': ('pyart_NWS_SPW', 0, nyquist),
     'differential_reflectivity': ('pyart_RefDiff', 0, 8),
     'cross_correlation_ratio': ('pyart_RefDiff', 0.5, 1.05),

@@ -10,7 +10,7 @@ for field in radar.fields.keys():
 
 fields_to_plot = {
     'reflectivity': ('pyart_NWSRef', -30, 75),
-    'velocity': ('pyart_NWSVel', -nyquist, nyquist),
+    'velocity': ('pyart_BuDRd18', -nyquist, nyquist),
     'spectrum_width': ('pyart_NWS_SPW', 0, nyquist),
     'normalized_coherent_power': ('pyart_Carbone17', 0.0, 1.0),
     'differential_reflectivity': ('pyart_RefDiff', 0, 8),

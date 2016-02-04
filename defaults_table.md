@@ -6,11 +6,11 @@
 | total_power                           |   pyart_NWSRef            |   -30       |   75          | NEXRAD limits             | Yes       |
 | signal_to_noise_ratio                 |   pyart_Carbone17         |   -20       |   30          |                           | Yes       |
 |                                       |                           |             |               |                           |           |
-| velocity                              |   pyart_NWSVel            |   -nyq      |   nyq         | +/- Nyquist velocity      | Yes       |
-| corrected_velocity                    |   pyart_NWSVel            |   -nyq      |   nyq         | +/- Nyquist velocity      | No        |
-| eastward_wind_component               |   pyart_NWSVel            |   -nyq      |   nyq         | +/- Nyquist velocity      | No        |
-| northward_wind_component              |   pyart_NWSVel            |   -nyq      |   nyq         | +/- Nyquist velocity      | No        |
-| vertical_wind_component               |   pyart_NWSVel            |   -nyq      |   nyq         | +/- Nyquist velocity      | No        |
+| velocity                              |   pyart BuDRd18           |   -nyq      |   nyq         | +/- Nyquist velocity      | Yes       |
+| corrected_velocity                    |   pyart BuDRd18           |   -nyq      |   nyq         | +/- Nyquist velocity      | No        |
+| eastward_wind_component               |   pyart BuDRd18           |   -nyq      |   nyq         | +/- Nyquist velocity      | No        |
+| northward_wind_component              |   pyart BuDRd18           |   -nyq      |   nyq         | +/- Nyquist velocity      | No        |
+| vertical_wind_component               |   pyart BuDRd18           |   -nyq      |   nyq         | +/- Nyquist velocity      | No        |
 |                                       |                           |             |               |                           |           |
 | spectrum_width                        |   pyart_NWS_SPW           |   0         |   nyq         |                           | Yes       |
 |                                       |                           |             |               |                           |           |
