@@ -37,9 +37,9 @@
 |                                       |                           |             |               |                           |           |
 | radar_echo_classification             |   pyart_LangRainbow12     |   0         |   11          |                           | Yes       |
 |                                       |                           |             |               |                           |           |
-| specific_attenuation                  | pyart_Carbone17           | -10         | 65            |                           | No        |
+| specific_attenuation                  | pyart_Carbone17           | 0           | 10            |                           | No        |
 |                                       |                           |             |               |                           |           |
-| differential_phase_texture            | pyart_BlueBrown11         | -180        | 180           |                           | No        |
+| differential_phase_texture            | pyart_BlueBrown11         | 0           | 180           |                           | No        |
 |                                       |                           |             |               |                           |           |
 | height                                | pyart_SCook18             | 0           | 20000         | 20 km                     | No        |
 | interpolated_profile                  | pyart_SCook18             | 0           | 10000         | 10 km                     | No        |
