@@ -13,7 +13,7 @@ fields_to_plot = {
     'velocity': ('pyart_BuDRd18', -nyquist, nyquist),
     'spectrum_width': ('pyart_NWS_SPW', 0, nyquist),
     'normalized_coherent_power': ('pyart_Carbone17', 0.0, 1.0),
-    'differential_reflectivity': ('pyart_RefDiff', 0, 8),
+    'differential_reflectivity': ('pyart_RefDiff', -1, 8),
     'cross_correlation_ratio': ('pyart_RefDiff', 0.5, 1.05),
     'differential_phase': ('pyart_Wild25', -180, 180),
     'specific_differential_phase': ('pyart_Theodore16', -2, 5),

@@ -16,8 +16,8 @@
 |                                       |                           |             |               |                           |           |
 | normalized_coherent_power             |   pyart_Carbone17         |   0.0       |   1.0         |                           | Yes       |
 |                                       |                           |             |               |                           |           |
-| differential_reflectivity             |   pyart_RefDiff           |   0         |   8           |                           | Yes       |
-| corrected_differential_reflectivity   |   pyart_RefDiff           |   0         |   8           |                           | Yes       |
+| differential_reflectivity             |   pyart_RefDiff           |   -1        |   8           |                           | Yes       |
+| corrected_differential_reflectivity   |   pyart_RefDiff           |   -1        |   8           |                           | Yes       |
 |                                       |                           |             |               |                           |           |
 | cross_correlation_ratio               |   pyart_RefDiff           |   0.5       |   1.05        |                           | Yes       |
 |                                       |                           |             |               |                           |           |
